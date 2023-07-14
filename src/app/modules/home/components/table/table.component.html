@@ -1,0 +1,23 @@
+<section *ngIf="valor.USD > 0">
+    <table >
+        <thead>
+            <th colspan="2">Conversão</th>
+            <th >Valor</th>
+        </thead>
+        <tr>
+            <td class="placeholder">Dólar</td>
+            <td>{{valor.USD}}</td>
+            <td>{{conversoes.USD}}</td>
+        </tr>
+        <tr>
+            <td class="placeholder">Euro</td>
+            <td>{{valor.EUR}}</td>
+            <td>{{conversoes.EUR}}</td>
+        </tr>
+        <tr>
+            <td class="placeholder">Peso</td>
+            <td>{{valor.ARS}}</td>
+            <td>{{conversoes.ARS}}</td>
+        </tr>
+    </table>
+</section>

@@ -1,0 +1,8 @@
+<header>
+    <h1>Conversor de Reais</h1>
+</header>
+<section>
+<label for="valor">R$</label>
+<input type="number" id="valor" [(ngModel)]="reais" (keyup)="converte()">
+</section>
+<app-table [valor]="valor" [conversoes]="conversoes"></app-table>
